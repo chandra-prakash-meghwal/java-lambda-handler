@@ -34,7 +34,7 @@ public class LambdaFunctionHandler implements RequestHandler<APIGatewayProxyRequ
     public APIGatewayProxyResponseEvent handleRequest(APIGatewayProxyRequestEvent request, Context context) {
         String authToken = getAuthData().orElseThrow(() -> new RuntimeException("Unable to retrieve auth data"));
 
-        String accessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0SWQiOiIzNDY1NDI2NzRlNjczODM5MzEzNjM2MzgiLCJjb21wYW55SWQiOjQyMjM4NH0.O50HL59mD4Ok6mg8fSrz-lfJu-kQQojkCl5wcV1UaCI";
+        String accessToken = "";
         // // Check if request body is not null
         // if (request.getBody() == null) {
         //     // Handle empty or null request body
