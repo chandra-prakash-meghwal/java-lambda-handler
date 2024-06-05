@@ -3,6 +3,7 @@ lambda handler java 11
 
 # how to deploy
 Build the project
+install maven if not already installed with command `sudo apt install maven`
 run the below command to create jar file
 ```
 mvn clean package
