@@ -2,7 +2,7 @@
 lambda handler java 11
 
 # how to deploy
-1. Build the project
+Build the project
 run the below command to create jar file
 `
 mvn clean package
